@@ -24,5 +24,10 @@
 	{
 		header('location: register.php');
 	}
-	
 ?>
+
+<html>
+	<head>
+		<title><?php echo $firstName . '' . $lastName ?> </title>
+	</head>
+</html>
